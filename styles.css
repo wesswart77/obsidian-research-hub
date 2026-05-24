@@ -1,0 +1,176 @@
+/* Research Hub Plugin Styles */
+
+.research-hub-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 8px;
+}
+
+.research-hub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.research-hub-header h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-normal);
+}
+
+.research-hub-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.research-hub-btn {
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+}
+
+.research-hub-btn:hover {
+  background: var(--background-modifier-hover);
+}
+
+.research-hub-btn.primary {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
+
+.research-hub-btn.primary:hover {
+  background: var(--interactive-accent-hover);
+}
+
+.research-hub-project-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.research-hub-project-item {
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.research-hub-project-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+.research-hub-project-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-normal);
+  margin-bottom: 4px;
+}
+
+.research-hub-project-question {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+.research-hub-project-stats {
+  display: flex;
+  gap: 8px;
+}
+
+.research-hub-stat {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+.research-hub-stat-icon {
+  font-size: 10px;
+}
+
+.research-hub-empty {
+  text-align: center;
+  padding: 24px 12px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.research-hub-empty .empty-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+/* Credibility tags */
+.credibility-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.credibility-high {
+  background: #d4edda;
+  color: #155724;
+}
+
+.credibility-medium {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.credibility-low {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+/* Confidence badges */
+.confidence-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.confidence-high {
+  background: var(--color-green);
+  color: white;
+}
+
+.confidence-medium {
+  background: var(--color-yellow);
+  color: #333;
+}
+
+.confidence-low {
+  background: var(--color-orange);
+  color: white;
+}
+
+/* Modal styles */
+.research-hub-modal .modal-content {
+  padding: 20px;
+}
+
+.research-hub-modal .setting-item {
+  border: none;
+  padding: 8px 0;
+}
