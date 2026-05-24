@@ -1,9 +1,9 @@
 {
   "id": "research-hub",
   "name": "Research Hub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.4.0",
-  "description": "A focused research workspace for Obsidian: capture sources, evidence, claims, and synthesis notes for any topic or project.",
+  "description": "A focused research workspace: capture sources, evidence, claims, and synthesis notes for any topic or project.",
   "author": "Research Hub",
   "authorUrl": "",
   "isDesktopOnly": false
